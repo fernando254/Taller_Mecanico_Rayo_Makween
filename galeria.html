@@ -8,6 +8,7 @@
     <title>Mis Perris</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
 </head>
 
 <body>
@@ -41,53 +42,59 @@
         </section>
 
         <section id="bienvenida">
-            <h2>Bienvenidos a nuestro club</h2>
+            <h2>Galeria de mascotas para adopcion</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus fugit quam laboriosam
                 omnis ullam, atque autem consequuntur beatae quae quibusdam libero temporibus perferendis iusto a
                 blanditiis, commodi velit exercitationem.</p>
         </section>
 
         <section id="blog">
-            <h3>lo ultimo de nuestro blog</h3>
+            <h3>lo ultimo de nuestro stock</h3>
             <div class="contenedor">
                 <article>
-                    <img src="img/perro2.png" alt="">
-                    <h4>Perrunos son amigos</h4>
-                </article>
-                <article>
-                    <img src="img/perro3.jpg" alt="">
-                    <h4>Simpatia perruna</h4>
-                </article>
-                <article>
-                    <img src="img/perro4.jpg" alt="">
-                    <h4>La linda mascota</h4>
-                </article>
-            </div>
-        </section>
-
-        <section id="info">
-            <h3>para muchos de nosotros las mascotas son miembros de nuestra familia</h3>
-            <div class="contenedor">
-                <article>
-                    <img src="img/perro2.png" alt="">
-                    <h4>Perruno</h4>
-                </article>
-                <article>
-                    <img src="img/perro3.jpg" alt="">
+                    <a href="img/perro1.jpg" data-lightbox="perros" data-title="lindo perro">
+                        <img src="img/perro1.jpg" alt="">
+                    </a>
                     <h4>Lindo</h4>
                 </article>
                 <article>
+                    <a href="img/perro2.png" data-lightbox="perros" data-title="hermoso">
+                        <img src="img/perro2.png" alt="">
+                    </a>
+                    <h4>Simpatia</h4>
+                </article>
+                <article>
+                    <a href="img/perro3.jpg" data-lightbox="perros" data-title="feo">
+                        <img src="img/perro3.jpg" alt="">
+                    </a>
+                    <h4>Depo Depo</h4>
+                </article>
+                <article>
                     <img src="img/perro4.jpg" alt="">
-                    <h4>Chuleta</h4>
+                    <h4>Mente en blanco</h4>
                 </article>
                 <article>
                     <img src="img/perro5.jpg" alt="">
+                    <h4>Cucho</h4>
+                </article>
+                <article>
+                    <img src="img/perro6.png" alt="">
                     <h4>KK Can</h4>
+                </article>
+                <article>
+                    <img src="img/perro7.jpg" alt="">
+                    <h4>Neumatex</h4>
+                </article>
+                <article>
+                    <img src="img/perro8.jpg" alt="">
+                    <h4>Corta Churros</h4>
                 </article>
             </div>
         </section>
-    </main>
 
+
+    </main>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>
