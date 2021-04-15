@@ -8,7 +8,7 @@
     <title>Mis Perris</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 
 <body>
@@ -42,59 +42,37 @@
         </section>
 
         <section id="bienvenida">
-            <h2>Galeria de mascotas para adopcion</h2>
+            <h2>Formulario de inscripcion de adopcion de mascotas</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus fugit quam laboriosam
                 omnis ullam, atque autem consequuntur beatae quae quibusdam libero temporibus perferendis iusto a
                 blanditiis, commodi velit exercitationem.</p>
         </section>
 
-        <section id="blog">
-            <h3>lo ultimo de nuestro stock</h3>
-            <div class="contenedor">
-                <article>
-                    <a href="img/perro1.jpg" data-lightbox="perros" data-title="lindo perro">
-                        <img src="img/perro1.jpg" alt="">
-                    </a>
-                    <h4>Lindo</h4>
-                </article>
-                <article>
-                    <a href="img/perro2.png" data-lightbox="perros" data-title="hermoso">
-                        <img src="img/perro2.png" alt="">
-                    </a>
-                    <h4>Simpatia</h4>
-                </article>
-                <article>
-                    <a href="img/perro3.jpg" data-lightbox="perros" data-title="feo">
-                        <img src="img/perro3.jpg" alt="">
-                    </a>
-                    <h4>Depo Depo</h4>
-                </article>
-                <article>
-                    <img src="img/perro4.jpg" alt="">
-                    <h4>Mente en blanco</h4>
-                </article>
-                <article>
-                    <img src="img/perro5.jpg" alt="">
-                    <h4>Cucho</h4>
-                </article>
-                <article>
-                    <img src="img/perro6.png" alt="">
-                    <h4>KK Can</h4>
-                </article>
-                <article>
-                    <img src="img/perro7.jpg" alt="">
-                    <h4>Neumatex</h4>
-                </article>
-                <article>
-                    <img src="img/perro8.jpg" alt="">
-                    <h4>Corta Churros</h4>
-                </article>
-            </div>
-        </section>
+        <section id="formulario">
 
+            <form class="form-registro" action="" method="post">
+
+                <h2 class="form-titulo">Creacion de cuenta de usuario</h2>
+
+                <div class="contenedor-input">
+                    <input class="col-sm" type="text" name="txtNombre" id="txtNombre" placeholder="ingrese nombre" required minlength="3">
+                    <input class="col-sm" type="text" name="txtRut" id="txtRut" placeholder="ingrese rut ej. 12345678-9" required minlength="9" maxlength="10">
+                    <input class="col-xl" type="email" name="txtEmail" id="txtEmail" placeholder="ingrese email" required>
+                    <input class="col-sm" type="text" name="txtUsuario" id="txtUsuario" placeholder="ingrese usuario" required minlength="3" maxlength="10">
+                    <input class="col-sm" type="password" name="txtPass" id="txtPass" placeholder="ingrese password" required minlength="8" maxlength="12">
+                    <input class="col-xl" type="text" name="txtFono" id="txtFono" placeholder="ingrese fono" required minlength="8">
+
+                    <input class="btn-registrar" type="submit" value="Registrar">
+                    <input class="btn-registrar" type="button" value="Validar" 
+                     onclick="validarRut()">
+                </div>
+            </form>
+
+        </section>
+       <script src="js/scripts.js"></script>
 
     </main>
-    <script src="dist/js/lightbox-plus-jquery.js"></script>
+
 </body>
 
 </html>
