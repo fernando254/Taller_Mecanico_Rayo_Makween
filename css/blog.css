@@ -1,24 +1,29 @@
 
 
 #blog .contenedor img{
-    width: 250px;
-    height: 250px;
-    border: solid 4px tomato;
+    width: 400px;
+    height: 280px;
+    border: solid 4px rgb(68, 81, 199);
     border-radius: 8px;
+   
 }
 
 #blog {
-    font-family: cursive;
+    font-family: calibri;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5px;
+    background: white;
+    
+    
 }
 
 #blog .contenedor {
     display: flex;  /* definicion de cajas del tipo flexbox */
     justify-content: center; /* justificacion al centro */
     flex-wrap: wrap; /* define el uso de multi-linea si no tiene cupo*/
+    color:black
 }
 
 #blog .contenedor article{
-    margin:15px;
+    margin: 30px;
 }
