@@ -5,22 +5,12 @@
 
 
 
-.container-fluid h1{
 
-    font-family: calibri;
-    text-align: center;
-    padding: 20px;
-    
+
+.imge{
+
+    background-image: url("imge.jpg");
+    background-size: 100% 100vh;
+    padding: 0;
+    margin: 0;
 }
-
-#success_message{ display: none;}
-
-
-.img-fluid{
-
-width: 100%;
-
-padding: 50px;
-
-}
-
